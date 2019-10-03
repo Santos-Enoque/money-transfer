@@ -243,11 +243,11 @@ class _HomeState extends State<Home> {
                       alignment: Alignment.center,
                       decoration: BoxDecoration(
                           color: HexColor("60282e"),
-                          borderRadius: BorderRadius.circular(20)
+                          borderRadius: BorderRadius.circular(10)
                       ),
                       child: Center(
                         child: Padding(
-                          padding: const EdgeInsets.all(8.0),
+                          padding: const EdgeInsets.all(12),
                           child: Text("Send Money", style: TextStyle(fontSize: 22, color: Colors.white),),
                         ),
                       ),
